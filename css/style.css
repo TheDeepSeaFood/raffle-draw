@@ -1,7 +1,6 @@
 body {
-	background: url(../img/background.jpg) no-repeat;
+	background: url(../img/background.jpg);
 	background-size: cover;
-	background-position: center -200px;
 }
 
 .wrapper {
@@ -12,6 +11,7 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 1;
+	font-family: 'Montserrat';
 }
 
 .box {
@@ -28,20 +28,20 @@ body {
 
 h1 {
 	text-align: center;
-	color: #D62828;
+	color: goldenrod;
 }
 
 h2 {
 	text-align: center;
-	color: #003049;
+	color: goldenrod;
 	font-size: 20px;
 }
 
 p.lucky {
 	font-size: 15px;
 	text-align: center;
-	color: #000;
-	background-color: rgba(255, 255, 255, 0.3);
+	color: #ffffff;
+	background-color: #000000;
 }
 
 .terms {
@@ -89,10 +89,10 @@ p.lucky {
 }
 
 .countdown a {
-	background-color: #D62828;
+	background-color: goldenrod;
 	padding: 6px 20px;
 	border-radius: 2px;
-	color: #fff;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -103,11 +103,10 @@ p.lucky {
 .count {
 	position: relative;
 	top: 30px;
-	font-size: 40px;
-	font-family: 'DotGothic16', sans-serif;
+	font-size: 100px;
 	margin-bottom: 10px;
 	margin-top: 20px;
-	color: #D62828;
+	color: goldenrod;
 }
 
 .result {

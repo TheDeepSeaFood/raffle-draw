@@ -134,7 +134,7 @@ function _0xecad() {
     "44QnkZEl",
     "random",
     "ready",
-    ".",
+    "",
     ".result",
     "3864266rNxEQP",
     "html",
